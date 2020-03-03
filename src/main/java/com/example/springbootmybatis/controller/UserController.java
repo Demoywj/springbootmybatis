@@ -22,11 +22,7 @@ public class UserController {
         return "hello world";
     }
 
-    @ResponseBody
-    @GetMapping("/hell")
-    public String hell(){
-        return "hello world";
-    }
+
 
     @ResponseBody
     @GetMapping("/all")
