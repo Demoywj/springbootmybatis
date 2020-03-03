@@ -16,11 +16,7 @@ public class UserController {
     public int addUser(User user){
         return userService.addUser(user);
     }
-    @ResponseBody
-    @GetMapping("/hello")
-    public String hello(){
-        return "hello world";
-    }
+
 
 
 
